@@ -4,7 +4,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HTTPStatus.OK, HttpResponse('У меня получилось!')
+    request = HTTPStatus.OK
+    return request, HttpResponse('У меня получилось!')
 
 
 def second_page(request):
