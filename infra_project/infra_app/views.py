@@ -1,4 +1,3 @@
-from http import HTTPStatus
 from django.http import HttpResponse
 
 
